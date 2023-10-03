@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Obligation__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This field will store the Obligation name associated with each criteria. This will be lookup to Obligation object</description>
+    <externalId>false</externalId>
+    <label>Obligation</label>
+    <referenceTo>ObligationConfiguration__c</referenceTo>
+    <relationshipLabel>Obligation Criterias</relationshipLabel>
+    <relationshipName>Obligation_Criterias</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

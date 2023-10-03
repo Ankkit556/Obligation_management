@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <types>
+
+        <members>*</members>
+
+        <name>ApexClass</name>
+
+    </types>
+
+    <types>
+
+        <members>*</members>
+
+        <name>ApexComponent</name>
+
+    </types>
+
+    <types>
+
+        <members>*</members>
+
+        <name>ApexTestSuite</name>
+
+    </types>
+
+    <types>
+
+        <members>*</members>
+
+        <name>ApexTrigger</name>
+
+    </types>
+
+    <types>
+
+        <members>*</members>
+
+        <name>AuraDefinitionBundle</name>
+
+    </types>
+
+    <types>
+
+        <members>AgreementObligation__c.Agreement__c</members>
+
+        <members>AgreementObligation__c.Obligation__c</members>
+
+        <members>AgreementObligation__c.Status__c</members>
+
+        <members>AgreementObligation__c.User__c</members>
+
+        <members>ObligationCategory__c.Description__c</members>
+
+        <members>ObligationConfiguration__c.CriteriaLogic__c</members>
+
+        <members>ObligationConfiguration__c.ObligationCategory__c</members>
+
+        <members>ObligationConfiguration__c.ObligationName__c</members>
+
+        <members>ObligationCriteria__c.Active__c</members>
+
+        <members>ObligationCriteria__c.CriteriaNumber__c</members>
+
+        <members>ObligationCriteria__c.Description__c</members>
+
+        <members>ObligationCriteria__c.Obligation__c</members>
+
+        <members>ObligationRule__c.AgreementType__c</members>
+
+        <members>ObligationRule__c.KeySearchRequired__c</members>
+
+        <members>ObligationRule__c.Key__c</members>
+
+        <members>ObligationRule__c.ObligationCategoryValues__c</members>
+
+        <name>CustomField</name>
+
+    </types>
+
+    <types>
+
+        <members>AgreementObligation__c</members>
+
+        <members>ObligationCategory__c</members>
+
+        <members>ObligationConfiguration__c</members>
+
+        <members>ObligationCriteria__c</members>
+
+        <members>ObligationRule__c</members>
+
+        <name>CustomObject</name>
+
+    </types>
+
+    <types>
+
+        <members>ObligationCategory__c</members>
+
+        <members>ObligationConfiguration__c</members>
+
+        <members>ObligationCriteria__c</members>
+
+        <members>ObligationRule__c</members>
+
+        <name>CustomTab</name>
+
+    </types>
+
+    <types>
+
+        <members>Obligation_Management_Email_Templates/Task_Email_Template</members>
+
+        <name>EmailTemplate</name>
+
+    </types>
+
+    <types>
+
+        <members>*</members>
+
+        <name>FlexiPage</name>
+
+    </types>
+
+    <types>
+        
+        <members>Create_Agreement_Obligation_Tasks</members>
+        <members>Reminder_on_Tasks</members>
+        <members>Task_Reminder_Scheduled_Flow</members>
+
+        <name>Flow</name>
+
+    </types>
+
+    <types>
+
+        <members>AgreementObligation__c-Agreement Obligation Layout</members>
+
+        <members>ObligationCategory__c-Obligation Category Layout</members>
+
+        <members>ObligationConfiguration__c-Obligation Layout</members>
+
+        <members>ObligationCriteria__c-Obligation Criteria Layout</members>
+
+        <members>ObligationRule__c-Obligation Category Key Layout</members>
+
+        <name>Layout</name>
+
+    </types>
+
+    <types>
+
+        <members>*</members>
+
+        <name>LightningComponentBundle</name>
+
+    </types>
+
+    <types>
+
+        <members>ObligationCategory__c.All</members>
+
+        <members>ObligationConfiguration__c.All</members>
+
+        <members>ObligationCriteria__c.All</members>
+
+        <members>ObligationRule__c.All</members>
+
+        <name>ListView</name>
+
+    </types>
+
+    <types>
+
+        <members>*</members>
+
+        <name>StaticResource</name>
+
+    </types>
+
+    <version>55.0</version>
+
+</Package>

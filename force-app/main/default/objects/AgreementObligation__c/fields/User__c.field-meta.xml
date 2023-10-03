@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>User__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This field will store the information of the User who is responsible for tracking the fulfillment of each Obligation. This will be a look-up to the standard User object</description>
+    <externalId>false</externalId>
+    <label>User</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Agreement_Obligations</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

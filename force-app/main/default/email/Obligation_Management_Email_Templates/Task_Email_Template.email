@@ -1,0 +1,7 @@
+Hello {!Task.Owner},<br/>
+<br/>
+This task is assigned to you.<br/>
+Due Date: {!Task.ActivityDate}<br/>
+<br/>
+Thanks,<br/>
+{!Task.CreatedBy}
